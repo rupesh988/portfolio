@@ -33,20 +33,7 @@ export default function AboutMe() {
                   </div>
 
                   <div className="grid grid-cols-2 gap-3 md:gap-4">
-                    {[{ icon: <Code className="w-5 h-5 md:w-6 md:h-6" />, color: "#3B82F6", label: "Coding" },
-                      { icon: <Coffee className="w-5 h-5 md:w-6 md:h-6" />, color: "#8B5CF6", label: "Coffee" },
-                      { icon: <Lightbulb className="w-5 h-5 md:w-6 md:h-6" />, color: "#EC4899", label: "Ideas" },
-                      { icon: <Laptop className="w-5 h-5 md:w-6 md:h-6" />, color: "#10B981", label: "Projects" }]
-                      .map((item, index) => (
-                        <div 
-                          key={index}
-                          className="flex flex-col items-center p-2 md:p-3 rounded-md md:rounded-lg hover:scale-105 transition-all duration-300"
-                          style={{ backgroundColor: `${item.color}15`, color: item.color }}
-                        >
-                          {item.icon}
-                          <span className="text-xs mt-1 font-medium">{item.label}</span>
-                        </div>
-                    ))}
+                  
                   </div>
                 </div>
 
@@ -64,9 +51,9 @@ export default function AboutMe() {
 
                     <div className="prose prose-invert max-w-none text-sm md:text-base">
                       <p className="text-gray-800 leading-relaxed">
-                        I'm passionate about coding and solving problems. My toolkit includes JavaScript, Python, and AWS, 
+                        I'm passionate about coding and solving problems. My toolkit includes React-Native,JavaScript, Python, and AWS, 
                         and I've worked on projects ranging from web development to cloud-based apps. I specialize in building 
-                        scalable applications with React.js, Node.js, and Flask.
+                        scalable applications with React-Native,Expo, React.js, Node.js, and Flask.
                       </p>
 
                       <p className="text-gray-800 leading-relaxed mt-3 md:mt-4">
