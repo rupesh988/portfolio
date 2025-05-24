@@ -13,7 +13,7 @@ function App() {
         <div className='flex-row flex absolute top-6 gap-4 font-medium'>
           <a href='#about' className='hover:underline'>About</a>
           <a href='#work' className='hover:underline'>Work</a>
-          <a href='/resume.pdf' download className='hover:underline'>Resume</a>
+          <a href='/resume.pdf'  className='hover:underline'>Resume</a>
         </div>
 
         {/* CONTACT BUTTON */}
