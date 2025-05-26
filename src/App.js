@@ -6,7 +6,7 @@ import Skill from "./components/modules/Skills";
 
 function App() {
   return (
-    <div className="bg-green-100 flex flex-col scroll-smooth">
+    <div className="bg-white flex flex-col scroll-smooth">
 
 
       <div className='flex justify-center items-center flex-col h-screen'>
