@@ -13,10 +13,10 @@ export default function AboutMe() {
 
         <div className="relative">
           {/* Decorative elements - hidden on mobile to reduce clutter */}
-          <div className="hidden md:block absolute -top-10 -left-10 w-20 h-20 rounded-full opacity-10 bg-blue-200  blur-xl"></div>
-          <div className="hidden md:block absolute -bottom-10 -right-10 w-20 h-20 rounded-full opacity-10 bg-purple-200 blur-xl"></div>
+          <div className="hidden md:block absolute -top-10 -left-10 w-20 h-20 rounded-full opacity-10 bg-white  blur-xl"></div>
+          <div className="hidden md:block absolute -bottom-10 -right-10 w-20 h-20 rounded-full opacity-10 bg-whiteblur-xl"></div>
 
-          <div className="relative overflow-hidden rounded-xl md:rounded-2xl border border-gray-300 hover:border-gray-400 transition-all duration-500">
+          <div className="relative overflow-hidden rounded-xl md:rounded-2xl border   transition-all duration-500">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 opacity-50"></div>
 
             <div className="relative p-6 md:p-10">
@@ -37,7 +37,7 @@ export default function AboutMe() {
                   </div>
                 </div>
 
-                {/* Right column with text content */}
+
                 <div className="w-full lg:w-2/3">
                   <div className="space-y-4 md:space-y-6">
                     <div>
