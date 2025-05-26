@@ -25,7 +25,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <div className="py-20 px-4 bg-gray-100" ref={containerRef} id="skills">
+    <div className="py-20 px-4 bg-white" ref={containerRef} id="skills">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center mb-16">
           <span className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-700">

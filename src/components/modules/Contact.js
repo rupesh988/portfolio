@@ -32,7 +32,7 @@ export default function ContactLinks() {
   ];
 
   return (
-    <div className="py-24 px-4 bg-gradient-to-br bg-gray-100">
+    <div className="py-24 px-4 bg-gradient-to-br bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center mb-16">
           <span className="text-5xl font-bold text-black">Connect</span>

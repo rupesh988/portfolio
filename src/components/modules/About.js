@@ -3,7 +3,7 @@ import { Code, Coffee, Lightbulb, Laptop } from 'lucide-react';
 
 export default function AboutMe() {
   return (
-    <div className="py-12 md:py-24 px-4 bg-gradient-to-br   bg-gray-100">
+    <div className="py-12 md:py-24 px-4 bg-gradient-to-br   bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center mb-8 md:mb-16">
           <span className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-700">

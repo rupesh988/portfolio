@@ -77,7 +77,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="py-24 px-4 bg-gradient-to-br bg-gray-100" id='work'>
+    <div className="py-24 px-4 bg-gradient-to-br bg-white" id='work'>
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center mb-20">
           <span className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-pink-600">
