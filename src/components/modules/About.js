@@ -13,11 +13,11 @@ export default function AboutMe() {
 
         <div className="relative">
           {/* Decorative elements - hidden on mobile to reduce clutter */}
-          <div className="hidden md:block absolute -top-10 -left-10 w-20 h-20 rounded-full opacity-10 bg-white  blur-xl"></div>
-          <div className="hidden md:block absolute -bottom-10 -right-10 w-20 h-20 rounded-full opacity-10 bg-whiteblur-xl"></div>
+          <div className="hidden md:block absolute -top-10 -left-10 w-20 h-20 rounded-full opacity-10 bg-white "></div>
+          <div className="hidden md:block absolute -bottom-10 -right-10 w-20 h-20 rounded-full opacity-10 bg-white blur-xl"></div>
 
           <div className="relative overflow-hidden rounded-xl md:rounded-2xl border   transition-all duration-500">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50 opacity-50"></div>
+            <div className="absolute inset-0 bg-white opacity-50"></div>
 
             <div className="relative p-6 md:p-10">
               <div className="flex flex-col lg:flex-row gap-6 md:gap-8 items-start">
